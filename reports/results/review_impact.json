@@ -1,0 +1,16 @@
+{
+  "late_review_count": 7659,
+  "on_time_review_count": 88092,
+  "late_review_mean": 2.5665230447839145,
+  "on_time_review_mean": 4.294063781803871,
+  "late_review_median": 2.0,
+  "on_time_review_median": 5.0,
+  "mann_whitney_u": 150556674.0,
+  "p_value": 0.0,
+  "p_value_display": "<1e-300",
+  "rank_biserial_correlation": -0.5537055685418366,
+  "mean_difference_late_minus_on_time": -1.7275407370199565,
+  "mean_difference_ci95_lower": -1.7638053331689387,
+  "mean_difference_ci95_upper": -1.6866081895180298,
+  "interpretation": "Post-outcome association; not a causal effect estimate."
+}

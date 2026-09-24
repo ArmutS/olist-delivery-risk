@@ -1,0 +1,14 @@
+{
+  "source_orders": 99441,
+  "delivered_orders": 96478,
+  "complete_timestamp_orders": 96456,
+  "invalid_timeline_orders_removed": 61,
+  "cohort_orders_with_items": 96395,
+  "cohort_orders_without_items_removed": 0,
+  "final_orders": 96395,
+  "late_orders": 7824,
+  "late_rate": 0.08116603558275844,
+  "multi_seller_orders_retained": 1273,
+  "prediction_start": "2016-09-15T12:16:38",
+  "prediction_end": "2018-08-29T15:10:26"
+}

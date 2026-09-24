@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "prediction_moment": "order_approved_at",
+  "target": "is_late",
+  "cohort": "Delivered orders with purchase, approval, estimated-delivery, actual-delivery, and item records",
+  "split_proportions": {
+    "train": 0.60,
+    "selection": 0.10,
+    "calibration": 0.10,
+    "test": 0.20
+  },
+  "primary_metric": "average_precision",
+  "high_risk_capacity": 0.10,
+  "medium_risk_capacity": 0.20,
+  "random_state": 42,
+  "minimum_segment_orders": 50,
+  "dataset_slug": "olistbr/brazilian-ecommerce"
+}

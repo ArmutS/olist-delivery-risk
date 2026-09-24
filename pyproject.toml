@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "olist-delivery-risk"
+version = "0.1.0"
+description = "Point-in-time-safe delivery delay risk modeling for the Olist e-commerce dataset"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+  {name = "Taha Mankır"}
+]
+dependencies = [
+  "joblib>=1.4,<2",
+  "matplotlib>=3.8,<4",
+  "numpy>=1.26,<3",
+  "pandas>=2.1,<4",
+  "scikit-learn>=1.5,<2",
+  "scipy>=1.11,<2"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<9",
+  "pytest-cov>=5,<7",
+  "ruff>=0.6,<1"
+]
+
+[project.scripts]
+olist-risk = "olist_delivery_risk.cli:main"
+
+[project.urls]
+Dataset = "https://www.kaggle.com/olistbr/brazilian-ecommerce"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
