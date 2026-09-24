@@ -1,6 +1,6 @@
 # Olist Delivery Risk
 
-[![CI](https://github.com/ArmutS/olist-delivery-risk/actions/workflows/ci.yml/badge.svg)](https://github.com/ArmutS/olist-delivery-risk/actions/workflows/ci.yml)
+[![CI](https://github.com/ArmutS/olist-delivery-risk-portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/ArmutS/olist-delivery-risk-portfolio/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB.svg)](https://www.python.org/)
 [![Code license: MIT](https://img.shields.io/badge/code%20license-MIT-green.svg)](LICENSE)
 [![Data license: CC BY-NC-SA 4.0](https://img.shields.io/badge/data%20license-CC%20BY--NC--SA%204.0-orange.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
@@ -80,8 +80,8 @@ This is not hidden as a modeling success: it establishes the project's boundary.
 Python 3.11 or newer is required. Raw data are deliberately excluded from Git.
 
 ```bash
-git clone git@github.com:ArmutS/olist-delivery-risk.git
-cd olist-delivery-risk
+git clone git@github.com:ArmutS/olist-delivery-risk-portfolio.git
+cd olist-delivery-risk-portfolio
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip

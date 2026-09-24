@@ -32,6 +32,7 @@ dev = [
 olist-risk = "olist_delivery_risk.cli:main"
 
 [project.urls]
+Repository = "https://github.com/ArmutS/olist-delivery-risk-portfolio"
 Dataset = "https://www.kaggle.com/olistbr/brazilian-ecommerce"
 
 [tool.setuptools]
